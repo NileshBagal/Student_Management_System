@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style>
+
+    .map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+  </style>
+</head>
+
+<body class="grey lighten-3">
+
+  <!--Main layout-->
+  <main class="pt-1 mx-lg-0" style="margin-top:100px;">
+    <div class="container-fluid mt-3">
+
+
+      <div class="container">
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+        <div class="card">
+
+            <!-- Card content -->
+            <div class="card-body">
+
+                <h4 class="ml-2" style="text-align:center;">Login</h4>
+                <hr>
+                <br>    
+                    <form method="post" action="">
+                        <select class="browser-default custom-select">
+                            <option value="">User Type</option>
+                            <option value="1">Student</option>
+                            <option value="2">Staff</option>
+                            <option value="3">Admin</option>
+                        </select>
+                        
+                        <div class="md-form">
+                            <input type="text" id="form1" class="form-control" name="uname">
+                            <label for="form1">Enter the Username</label>
+                        </div>
+
+                        <div class="md-form">
+                            <input type="password" id="form2" class="form-control" name="pwd">
+                            <label for="form2">Enter the Password</label>
+                        </div>
+
+                    </form>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Login <i class="fas fa-envelope ml-1"></i></button>
+                    <div class="md-form ml-2" style="font-size:4px;">
+                        <a href="#">Forget password ?</a>
+                    </div>
+            </div>
+
+        </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      </div>
+      </div>
+    </main>
+
+      
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+</body>
+
+</html>
