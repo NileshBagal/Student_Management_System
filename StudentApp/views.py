@@ -10,3 +10,9 @@ def home(request):
     return render(request,'studentHome.html')
 def attend(request):
     return render(request,'studentAttend.html')
+def viewnotice(request):
+    return render(request,'studentNotice.html')
+def parent(request):
+    return render(request,'studentParent.html')
+def dashboard(request):
+    return render(request,'dashboard.html')
