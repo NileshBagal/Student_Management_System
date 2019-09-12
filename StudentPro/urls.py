@@ -18,10 +18,11 @@ from django.urls import path
 from StudentApp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home'),
+    path('',views.login,name='login'),
+    path('profile', views.profile, name='parent'),
     path('attend', views.attend, name='attend'),
     path('viewnotice', views.viewnotice, name='notice'),
     path('parent', views.parent, name='parent'),
-    path('dashboard', views.dashboard, name='dash'),
-    path('parent', views.parent, name='parent'),
+    path('dashboard',views.dashboard,name='dash'),
+    #path('submit',views.submit,name='submit'),
 ]

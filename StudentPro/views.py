@@ -15,3 +15,7 @@ def viewnotice(request):
     return render(request,'studentNotice.html')
 def parent(request):
     return render(request,'studentParent.html')
+def index(request):
+    a = request.GET['usertype']
+    print(a)
+    print(request.GET['name'])
